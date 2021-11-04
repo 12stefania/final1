@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>parcial</title>
+	<style>
+		
+  .cuadro{
+    	position: absolute;
+    	border: solid black 4px;
+    	top: 30px;
+    	left: 150px;
+     	background: pink;
+    	width: 1180px;
+    	height: 750px;
+    }
+
+.tema1{
+    	position: absolute;
+    	border: solid black 4px;
+    	top: 40px;
+    	left: 288px;
+     	background: transparent;
+        font-size: 45px;
+        color: White;
+    	width: 280px;
+    	height: 60px;
+
+}
+
+.tema2{
+    	position: absolute;
+        border: solid black 4px;
+        top: 40px;
+        left: 920px;
+        background: transparent;
+        font-size: 45px;
+        color: White;
+        width: 280px;
+        height: 60px;
+
+}
+
+
+
+
+
+
+.cerrar1{
+    	position: absolute;
+    	border: solid black 4px;
+    	top: 700px;
+    	left: 350px;
+     	background: transparent;
+        font-size: 35px;
+        color: White;
+    	width: 190px;
+    	height: 56px;
+    
+
+}
+.cerrar2{
+        position: absolute;
+        border: solid black 4px;
+        top: 700px;
+        left: 980px;
+        background: transparent;
+        font-size: 35px;
+        color: White;
+        width: 190px;
+        height: 56px;
+    
+
+}
+
+
+
+ .texto2{
+    	position: absolute;
+    	border: solid black 4px;
+    	top: 120px;
+    	left: 200px;
+     	background: transparent;
+        font-size: 28px;
+        color: White;
+    	width: 510px;
+    	height: 530px;
+    	display: block;
+
+}
+
+.texto1{
+        position: absolute;
+        border: solid black 4px;
+        top: 120px;
+        left: 870px;
+        background: transparent;
+        font-size: 28px;
+        color: White;
+        width: 410px;
+        height: 535px;
+        display: block;
+
+}
+
+
+	</style>
+</head>
+<body>
+    <div class="cuadro"></div>
+    <center><div class="tema1" id="tema" onclick="document.getElementById('texto').style.display='block'">algoritmo</div></center>
+    <center><div class="tema2" id="tema2" onclick="document.getElementById('texto2').style.display='block'">galeria de fotos</div></center>
+    <div class="texto1" id="texto"><center><img src="foto1.png" height="535px" width="410px"></center></div>
+    <div class="texto2" id="texto"><center><img src="foto2.png" height="530px" width="510px"></center></div>
+    <center><div class="cerrar1"id="cerrar"onclick="document.getElementById('tema').style.display='none'">prueba</div></center>
+    <center><div class="cerrar2"id="cerrar"onclick="document.getElementById('tema').style.display='none'">ejecucion</div></center>
+
+
+     
+    <div>
+
+</body>
+</html>
